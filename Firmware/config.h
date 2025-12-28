@@ -1,0 +1,13 @@
+#pragma once
+
+#define MATRIX_ROWS 1
+#define MATRIX_COLS 3
+#define DIRECT_PINS { { GP10, GP9, GP8 } }
+
+// OLED
+#define I2C1_SCL_PIN GP6
+#define I2C1_SDA_PIN GP5
+#define I2C1_CLOCK_SPEED 400000
+#define OLED_DISPLAY_128X32
+#define OLED_TIMEOUT 0
+#define OLED_BRIGHTNESS 255
